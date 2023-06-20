@@ -1,5 +1,4 @@
 package com.latnok.darummovie.model.repo
-
 import com.latnok.darummovie.model.interfaces.MovieAPI
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

@@ -1,6 +1,7 @@
 package com.latnok.darummovie.model.data
+import java.io.Serializable
 
- data class Result (
+data class Result (
 
     val adult: Boolean,
     val backdrop_path: String,
@@ -16,4 +17,4 @@ package com.latnok.darummovie.model.data
     val video: Boolean,
     val vote_average: Double,
     val vote_count: Int
- )
+ ): Serializable
